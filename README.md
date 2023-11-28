@@ -11,10 +11,14 @@
 + 
 
 ## Playing the game
-A fun arcade game.
-The goal is to try to collect more fruits and coins in a certain time, from which different points are earned.
-Four levels that repeat themselves but increasing in difficulty and speed.
-Various of grat music and fun effects.
+Three fun logic games for two players.
+1) Four in a row;
+- The goal is for each player to be the first to build a line of four identical symbols in a column or diagonal, and the strategy may include blocking the opponent's symbols.
+
+2) Memory emoticons cards;
+The race is for the player to be the first to open 6 pairs of the same card/symbol before the other player. The game starts after a draw, with the player starting first, opening cards until he can guess consecutive pairs, if he fails, the other player starts playing, and so everything is repeated until the cards run out or one of the two opens the first 6 matching pairs.
+
+3)
 ```diff
 ! P.S.
 @@ Simple player controls. Just double tap to jump. @@
