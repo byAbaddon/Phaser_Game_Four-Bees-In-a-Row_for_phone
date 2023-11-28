@@ -16,7 +16,7 @@ Three fun logic games for two players.
 - The goal is for each player to be the first to build a line of four identical symbols in a column or diagonal, and the strategy may include blocking the opponent's symbols.
 
 2) Memory emoticons cards;
-The race is for the player to be the first to open 6 pairs of the same card/symbol before the other player. The game starts after a draw, with the player starting first, opening cards until he can guess consecutive pairs, if he fails, the other player starts playing, and so everything is repeated until the cards run out or one of the two opens the first 6 matching pairs.
+- The race is for the player to be the first to open 6 pairs of the same card/symbol before the other player. The game starts after a draw, with the player starting first, opening cards until he can guess consecutive pairs, if he fails, the other player starts playing, and so everything is repeated until the cards run out or one of the two opens the first 6 matching pairs.
 
 3)
 ```diff
