@@ -1,0 +1,63 @@
+#game-canvas {
+   display: none;
+ }
+
+* {
+  margin:0;
+  padding: 0;
+  }
+
+  @font-face {
+   font-family: 'cute';
+   src: url('/src/fonts/cute.ttf');
+} 
+  @font-face {
+    font-family: 'candy';
+    src: url('/src/fonts/candy.ttf');
+ } 
+ @font-face {
+    font-family: 'born';
+    src: url('/src/fonts/born.ttf');
+ }
+ @font-face {
+    font-family: 'mario';
+    src: url('/src/fonts/mario.ttf');
+ } 
+
+ @font-face {
+   font-family: 'baristo';
+   src: url('/src/fonts/baristo.ttf');
+} 
+
+@font-face {
+   font-family:'caps';
+   src: url('/src/fonts/caps.ttf');
+} 
+
+@font-face {
+   font-family:'falconpunch';
+   src: url('/src/fonts/falconpunch.ttf');
+} 
+/* 
+@font-face {
+   font-family: 'aAblasco';
+   src: url('/src/fonts/aAblasco.ttf');
+ }
+ */
+
+
+
+ 
+/* --------Disable dragging and selecting both initialize on a mouse down event-------------------------- */
+body {
+
+   -webkit-touch-callout: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+/* -------------------------------------------- */
+
