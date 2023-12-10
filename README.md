@@ -12,7 +12,7 @@
 
 ## Playing the game
 Three fun logic games for two players.
-1) Four in a row;
+1) Four in a line;
 - The goal is for each player to be the first to build a line of four identical symbols in a column or diagonal, and the strategy may include blocking the opponent's symbols.
 
 2) Memory emoticons cards;
@@ -39,7 +39,7 @@ soon
 ### Download
 #### Created with Phaser 3 and converted for android mobile app.
 ##### download apk file:
-https://github.com/byAbaddon/Phaser_Game_CheekyFly_for_phone/releases/tag/cheekyFly
+soon
 
 
 ### Prerequisites
