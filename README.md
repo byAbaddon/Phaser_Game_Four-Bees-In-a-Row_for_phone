@@ -27,7 +27,7 @@ Three fun logic games for two players.
 ```
 
 ## Short video intro:
-soon
+https://youtu.be/oSAAoSDEW7k
 
 ## Screenshots:
 soon
