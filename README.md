@@ -18,14 +18,14 @@ Three fun logic games for two players.
 2) Memory emoticons cards;
 - The race is for the player to be the first to open 6 pairs of the same card/symbol before the other player. The game starts after a draw, with the player starting first, opening cards until he can guess consecutive pairs, if he fails, the other player starts playing, and so everything is repeated until the cards run out or one of the two opens the first 6 matching pairs.
 
-3) 
-- "Simon Says" is a classic memory and attention game that is often used as an exercise in schools and training programs to improve players' ability to follow sequences. At start, a certain number of sequences of planets will be shown, according to the progress of the levels, and players who will take turns, according to the drawn lot, will have to play them according to their order. If one of them makes a mistake, he loses, and accordingly the other wins. When all planets are known, the game ends in a draw.
+3) "Simon Says" ;
+- Is a classic memory and attention game that is often used as an exercise in schools and training programs to improve players' ability to follow sequences. At start, a certain number of sequences of planets will be shown, according to the progress of the levels, and players who will take turns, according to the drawn lot, will have to play them according to their order. If one of them makes a mistake, he loses, and accordingly the other wins. When all planets are known, the game ends in a draw.
 
 
 ```diff 
 ! P.S.
-@@ 1 @@
-+ 2
+@@ -- @@
++ --
 - Beta version /may have some bugs
 ```
 
