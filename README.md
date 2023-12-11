@@ -46,7 +46,7 @@ https://youtu.be/oSAAoSDEW7k
 ### Download
 #### Created with Phaser 3 and converted for android mobile app.
 ##### download apk file:
-soon
+https://github.com/byAbaddon/Phaser_Game_Three_Games_For_Two_Plyaers_for_phone/releases/tag/game
 
 
 ### Prerequisites
