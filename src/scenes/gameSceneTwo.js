@@ -402,8 +402,6 @@ export class GameSceneTwo extends Scene {
 
   //=============================(((Custom Functions)))====================
   
-
-
   //------------------------------- generation random emoticon numbers
   generateCards() {
     let tenRandomNumbers = []
@@ -455,9 +453,14 @@ export class GameSceneTwo extends Scene {
       }
     }
     // call function click cards only array not empty
-    if (this.cardsArray.length) {
-       this.activateInteractiveCards()
-    }  
+    setTimeout(() => {
+      if (this.cardsArray.length) {
+        this.activateInteractiveCards()
+      } else {
+        this.input.enabled = false // disable all click events on this Scene
+      }
+    }, 200);
+  
  
   }
  
@@ -608,8 +611,8 @@ export class GameSceneTwo extends Scene {
       this.showResultTweenAnimation.play()
     } else if (this.womanPts > 5) {
       //------------------  woman win
-      this.winCounterTextP1.setText(`win\t ${++cfg.global.wins}`)
-      this.lossCounterTextP2.setText(`loss\t ${++cfg.global.lossesP2}`)
+      this.winCounterTextP2.setText(`loss\t ${++cfg.global.winsP2}`)
+      this.lossCounterTextP1.setText(`win\t ${++cfg.global.losses}`)
       this.winResultText.setVisible(true).setTint(0x00b6ff, 0x00b6ff, 0x00b6ff, 0xffb6ff)
       this.manSymbol.setVisible(true)
       this.circleFrame.setVisible(true).setX(cfg.width - 65)
@@ -617,8 +620,8 @@ export class GameSceneTwo extends Scene {
       this.showResultTweenAnimation.play()
     } else {
       //------------------ man win
-      this.lossCounterTextP2.setText(`win\t ${++cfg.global.winsP2}`)
-      this.winCounterTextP1.setText(`loss\t ${++cfg.global.losses}`)
+      this.winCounterTextP1.setText(`win\t ${++cfg.global.wins}`)
+      this.lossCounterTextP2.setText(`loss\t ${++cfg.global.lossesP2}`)
       this.winResultText.setVisible(true)
       this.womanSymbol.setVisible(true).setX(65)
       this.circleFrame.setVisible(true)
@@ -640,7 +643,11 @@ export class GameSceneTwo extends Scene {
     this.btnExit.setVisible(false)
     this.btnSound.setVisible(false)
     // fnc.createText(this, cfg.width / 2 - 165, cfg.height / 2, '  RELOADING... ', 50, 'white', 'black').setDepth(5)
-    setTimeout(() => this.scene.start('ReloadScene'), 3000)
+    try {
+      setTimeout(() => this.scene.launch('ReloadScene'), 3000);
+  } catch (error) {
+      console.error('Error launching scene:', error);
+  }
   }
 
 
